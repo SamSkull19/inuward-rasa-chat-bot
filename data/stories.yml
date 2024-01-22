@@ -29,7 +29,8 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: best instructor
+
+- story: required_Documents
   steps:
-  - intent: teachers
-  - action: utter_instructor
+  - intent: Documents_required
+  - action: utter_Documents_required

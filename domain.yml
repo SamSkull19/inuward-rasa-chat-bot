@@ -9,7 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - n_flower
-  - teachers
+  - Documents_required
 
 responses:
   utter_greet:
@@ -34,12 +34,15 @@ responses:
   utter_flower:
   - text: "Water Lily is the national flower of Bangladesh."
 
-  utter_instructor:
-  - text: "Nayan Kumar Nath is the best instructor of SEC."
-  - text: "MD Lysuzzaman is the best instructor of SEC."
-  - text: "Abu Naser is the best instructor of SEC."
-  - text: "MD Monir is the best instructor of SEC."
-  - text: "Iffat Ara Akhi is the best instructor of SEC."
+
+  utter_Documents_required:
+  - text: "Yes, you will need HSC Registration Card along with SSC and HSC transcripts for admission to SEC."
+  - text: "Yes, for SEC admission, you'll need the HSC Registration Card in addition to your SSC and HSC transcripts."
+  - text: "To secure admission in SEC, the HSC Registration Card, along with your SSC and HSC transcripts, is required."
+  - text: "The HSC Registration Card is mandatory, along with SSC and HSC transcripts, for admission to SEC."
+  - text: "For admission to SEC, it is necessary to present the HSC Registration Card along with your SSC and HSC transcripts."
+  - text: "To gain admission in SEC, the HSC Registration Card is essential, along with your SSC and HSC transcripts."
+
 
 session_config:
   session_expiration_time: 60
