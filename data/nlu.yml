@@ -678,8 +678,19 @@ nlu:
     - Tell about SEC.
 
 
-
-
+- intent: SEC_Degree
+  examples: |
+    - What are the degrees offered by SEC?
+    - What academic programs are available at SEC?
+    - Can you provide a list of the degrees offered by SEC?
+    - What are the educational offerings provided by SEC?
+    - Could you detail the various degrees available at SEC?
+    - Can you outline the different programs of study at SEC?
+    - What degrees can one pursue at SEC?
+    - Could you share information on the academic degrees offered by SEC?
+    - What educational qualifications are obtainable at SEC?
+    - Can you specify the range of degrees provided by SEC?
+    - What degree options are there for students at SEC?
 
 
 

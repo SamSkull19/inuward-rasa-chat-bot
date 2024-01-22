@@ -50,6 +50,7 @@ intents:
   - GradingSystem
   - Howto_arrive_in_SEC
   - SEC_Intro
+  - SEC_Degree
 
 
 
@@ -365,6 +366,9 @@ responses:
 
   utter_SEC_Intro:
   - text: "Sylhet Engineering College."
+
+  utter_SEC_Degree:
+  - text: "Bachelor of Science in Engineering(BSc. Engineering)"
 
 
 session_config:

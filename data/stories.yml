@@ -251,7 +251,16 @@ stories:
   - intent: Howto_arrive_in_SEC
   - action: utter_Howto_arrive_in_SECResponse
 
+- story: SEC Introduction
+  steps:
+  - intent: SEC_Intro
+  - action: utter_SEC_Intro
 
+
+- story: SEC Degree
+  steps:
+  - intent: SEC_Degree
+  - action: utter_SEC_Degree
 
 
 
